@@ -1,0 +1,117 @@
+/*
+File: 			main.css
+Author: 		Armanpreet Singh
+Date Created: 	October 16, 2019
+Date Updated: 	
+Version: 		1.0
+Purpose: 		Assignment 3 for SYST10049 Fall 2019
+Copyright: 
+    This work is the intellectual property of Sheridan College. 
+    Any further copying and distribution outside of class must be 
+    within the copyright law. Posting to commercial sites for profit is prohibited.
+Description:
+	Set of CSS rules to style Birdwatching site for Assignment 3.
+*/
+/* 
+	GENERAL STYLES
+*/
+
+body {
+  background-color: #e0e0e0;
+}
+footer {
+  margin: auto;
+  text-align: center;
+}
+main {
+  background-color: white;
+}
+/* 
+	NAVIGATION 
+*/
+nav {
+  flex: 100%;
+  margin: 0 auto;
+  min-width: 250px;
+  text-align: center;
+}
+nav a {
+  background: #a4a4a4;
+  color: #fff;
+  display: inline-block;
+  font-family: Lato, sans-serif;
+  font-size: 15px;
+  padding: 7px;
+  text-decoration: none
+}
+nav a.active,nav a:hover {
+  background: #c2c2c2;
+  color: #818181;
+}
+header ul, header li {
+  display: inline-block;
+  list-style-type: none; 
+}
+/* 
+	MAIN SECTION 
+*/
+
+article, section {
+  flex: 4;
+  padding: 5px 5px;
+}
+
+aside {
+  flex: 1;
+  margin-left: 10px;
+  padding: 1%;
+}
+
+aside a {
+  display: block;
+  float: left;
+  width: 50%;
+}
+
+aside img {
+  max-width: 100%;
+}
+
+footer {
+  margin-top: 10px;
+}
+
+header h1 {
+  color: gray;
+  margin-bottom: 10px;
+  display: block;
+  flex-flow: row wrap;
+  font-family: "Comic Sans MS";
+  text-align: center;
+  text-transform: uppercase;
+  overflow: auto;
+}
+
+header img {	
+  position: absolute;
+  top: 20px;
+  right: 20px;
+  height: 60px;
+
+}
+
+main {
+  display: flex;
+}
+
+/*
+	GRID CONTAINER
+*/
+.grid-container {
+  display: inline-grid;
+  grid-template-columns: auto auto auto;
+}
+
+.grid-item {
+  padding: 0px;
+}
